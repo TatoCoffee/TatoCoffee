@@ -9,6 +9,11 @@
     <head>
         <title>@ViewData["Title"]</title>
         <link rel ="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            .card-title {
+                cursor: pointer;
+            }
+        </style>
     </head>
     <body>
         <div class="container">
@@ -19,11 +24,15 @@
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <div class="card">
-                    <div class="card-body">
-                        <h2>Informacion Personal</h2>
-                        <p>Nombre: Javier Prieto</p>
-                        <p>Email: hj201167@gmail.com</p>
-                        <p>Movil: +57 3213365598</p>
+                    <div class="card-header">
+                        <h2 class="card-title" data-toggle="collapse" data-target="#personal-info">Informacion Personal</h2>
+                    </div>
+                    <div id="personal-info" class="collapse">
+                        <div class="card-body">
+                            <p>Nombre: Javier Prieto</p>
+                            <p>Email: hj201167@gmail.com</p>
+                            <p>Movil: +57 3213365598</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -32,10 +41,14 @@
         <div class="row mt-4">
             <div class="col-md-6 offset-md-3">
                 <div class="card">
-                    <div class="card-body">
-                        <h2>Educacion</h2>
-                        <p>Escuela de Ingenieria Julio Garavito - Analista  de Procesos IT y Desarrollo Tecnologico</p>
-                        <p>CS</p>
+                    <div class="card-header">
+                        <h2 class="card-title" data-toggle="collapse" data-target="#education">Educacion</h2>
+                    </div>
+                    <div id="education" class="collapse">
+                        <div class="card-body">
+                            <p>Escuela de Ingenieria Julio Garavito - Analista  de Procesos IT y Desarrollo Tecnologico</p>
+                            <p>CS</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -44,18 +57,25 @@
         <div class="row mt-4">
             <div class="col-md-6 offset-md-3">
                 <div class="card">
-                    <div class="card-body">
-                        <h2>Experiencia Laboral</h2>
-                        <p>Experiencia ABC - CTO</p>
-                        <p>Responsabilidades:</p>
-                        <ul>
-                            <li>FullStack</li>
-                            <li>DevOps</li>
-                            <li>Infraestructura</li>
-                        </ul>
+                    <div class="card-header">
+                        <h2 class="card-title" data-toggle="collapse" data-target="#work-experience">Experiencia Laboral</h2>
+                    </div>
+                    <div id="work-experience" class="collapse">
+                        <div class="card-body">
+                            <p>Experiencia ABC - CTO</p>
+                            <p>Responsabilidades:</p>
+                            <ul>
+                                <li>FullStack</li>
+                                <li>DevOps</li>
+                                <li>Infraestructura</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
 </html>
