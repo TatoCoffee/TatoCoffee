@@ -1,8 +1,66 @@
 ﻿@page
 @model PrivacyModel
 @{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "About Us";
 }
 <h1>@ViewData["Title"]</h1>
 
 <p>Use this page to detail your site's privacy policy.</p>
+
+<style>
+    .gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .image-container {
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .image-container:hover {
+        transform: scale(1.1);
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<div class="gallery">
+    <div class="image-container">
+        <img src="https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg" alt="Image 1">
+    </div>
+    <div class="image-container">
+        <img src="https://www.viewhotels.jp/ryogoku/wp-content/uploads/sites/9/2020/03/test-img.jpg" alt="Image 2">
+    </div>
+    <div class="image-container">
+        <img src="https://www.viewhotels.jp/ryogoku/wp-content/uploads/sites/9/2020/03/test-img.jpg" alt="Image 3">
+    </div>
+    <div class="image-container">
+        <img src="https://www.viewhotels.jp/ryogoku/wp-content/uploads/sites/9/2020/03/test-img.jpg" alt="Image 4">
+    </div>
+    <div class="image-container">
+        <img src="https://www.viewhotels.jp/ryogoku/wp-content/uploads/sites/9/2020/03/test-img.jpg" alt="Image 5">
+    </div>
+</div>
+
+<script>
+    const imageContainers = document.querySelectorAll(".image-container");
+
+    imageContainers.forEach((container) => {
+        container.addEventListener("mouseover", () => {
+            container.style.transform = "scale(1.1)";
+        });
+
+        container.addEventListener("mouseout", () => {
+            container.style.transform = "scale(1)";
+        });
+    });
+</script>
