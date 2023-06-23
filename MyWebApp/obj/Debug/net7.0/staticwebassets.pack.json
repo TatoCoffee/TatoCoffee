@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MyWebApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\javier.barrantes\\Documents\\Proyectos\\c sharp projects\\MyWebApp\\wwwroot\\css\\dark-theme.css",
+      "PackagePath": "staticwebassets\\css\\dark-theme.css"
+    },
+    {
       "Id": "C:\\Users\\javier.barrantes\\Documents\\Proyectos\\c sharp projects\\MyWebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

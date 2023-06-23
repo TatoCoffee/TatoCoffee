@@ -1,12 +1,15 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+    @{
+        var theme = ViewData["Theme"] as string ?? "light";
+    }
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - HDV</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/MyWebApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/@(theme == "dark" ? "dark-theme.css" : "Site.css")" />
 </head>
 <body>
     <header>
@@ -26,6 +29,9 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">About Us</a>
                         </li>
                     </ul>
+                    <div class="text-center mt-4">
+                        <button type="button" class="btn btn-primary" onclick="toggleTheme()">Cambiar Modo</button>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -44,7 +50,22 @@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        function toggleTheme() {
+            var body = document.body;
+            body.classList.toggle("dark-theme");
+
+            var theme = body.classList.contains("dark-theme") ? "dark" : "light";
+            localStorage.setItem("theme", theme);
+        }
+
+        window.onload = function () {
+            var theme = localStorage.getItem("theme");
+            if (theme === "dark") {
+                document.body.classList.add("dark-theme");
+            }
+        }
+    </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

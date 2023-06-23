@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DXJzJoB7FqFb38LF1azmNJ/b5Lif1USCjrnYl/fY8uo=",
+  "Hash": "OpxJi/iXVIZdvYVIU2+RyMrWmj5WZ+pmWfpRUmmBjMI=",
   "Source": "MyWebApp",
   "BasePath": "_content/MyWebApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\javier.barrantes\\Documents\\Proyectos\\c sharp projects\\MyWebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MyWebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\javier.barrantes\\Documents\\Proyectos\\c sharp projects\\MyWebApp\\wwwroot\\css\\dark-theme.css",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\javier.barrantes\\Documents\\Proyectos\\c sharp projects\\MyWebApp\\wwwroot\\",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "css/dark-theme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dark-theme.css"
     },
     {
       "Identity": "C:\\Users\\javier.barrantes\\Documents\\Proyectos\\c sharp projects\\MyWebApp\\wwwroot\\css\\site.css",
