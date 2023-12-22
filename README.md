@@ -82,7 +82,7 @@
       <summary><h3>Tecs</h3></summary>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,gcp,azure,vim,aws,php,css,discord,github,html,java,js,kotlin,linux,mysql,nodejs,py,powershell,vscode&perline=14" />
+    <img src="https://skillicons.dev/icons?i=git,gcp,azure,vim,aws,php,css,discord,github,html,java,js,linux,mysql,nodejs,py,powershell,vscode&perline=14" />
   </a>
 </p>
   </samp>
