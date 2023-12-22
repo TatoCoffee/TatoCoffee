@@ -74,11 +74,12 @@
   </div>    
 </details>
   <details>
-    <summary>Technologies That I Know👨🏻‍💻</summary>
+    <summary>👨🏻‍💻Technologies That I Know</summary>
 <div>
   <samp>
 <!--tech stack icons-->
     <details open>
+      <summary><h3>Tecs</h3></summary>
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,aws,bootstrap,c,cpp,css,discord,docker,dynamodb,express,figma,firebase,github,html,idea,java,js,kotlin,linux,md,materialui,mongodb,mysql,nextjs,nodejs,postman,py,react,redux,tailwind,ts,vscode&perline=14" />
