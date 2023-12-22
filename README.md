@@ -15,7 +15,7 @@
   <summary>☎️ Contact Me</summary>
 <div>
   <samp>
-    <h2 align="center">you can reach me by:</h2>
+    <h2 align="center">You Can Reach Me By:</h2>
     <p align="center">
       <br/>
       <a href="https://www.facebook.com/tatoveins666/" target="blank"><img align="center"
@@ -77,7 +77,6 @@
     <summary>👨🏻‍💻Technologies That I Know</summary>
 <div>
   <samp>
-<!--tech stack icones-->
     <details open>
       <summary><h3>Tecs</h3></summary>
 <p align="center">
