@@ -56,6 +56,8 @@
           alt="TatoCoffee :: Top Langs by repo" />
           <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TatoCoffee&theme=gruvbox&layout=compact&hide_border=true"
           alt="TatoCoffee :: Top Langs by commit" />
+          <a href="https://github.com/TatoCoffee" title="Go to Source">
+          <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=TatoCoffee&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TatoCoffee" />
           </a>
         </p>
 </details>
