@@ -71,4 +71,3 @@
      </samp>
   </div>    
 </details>
-<details>
