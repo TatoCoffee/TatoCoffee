@@ -77,7 +77,7 @@
     <summary>👨🏻‍💻Technologies That I Know</summary>
 <div>
   <samp>
-<!--tech stack icons-->
+<!--tech stack icones-->
     <details open>
       <summary><h3>Tecs</h3></summary>
 <p align="center">
