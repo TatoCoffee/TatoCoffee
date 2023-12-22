@@ -1,7 +1,6 @@
 <div align="center">
 <h1 align="center">Hi <img width="35" src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/waving.gif">, I'm TatoCoffee</h1>
 <h4 align="center">a SysAdmin resume </h4>
-
 </div>
 
 <div align="center">
@@ -10,7 +9,6 @@
        alt="snake" /></a>
 </div>
 
------
 <details>
   <summary>☎️ Contact Me</summary>
 <div>
